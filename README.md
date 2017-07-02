@@ -7,6 +7,7 @@ webpack使用实例
 # 启动服务 npm run dev_win(window环境)
 
 # 项目结构说明
+```html
 |-webpack-demo 项目目录
     |-.gitignore 打包忽略文件
     |-package.json 依赖文件
@@ -30,7 +31,7 @@ webpack使用实例
                 |-vendor.html 第三方插件
             |-home.html 主页
             |-login.html 登录页
-
+```
 
 # 框架使用说明
 * js框架 使用jquery-v1.11.3
