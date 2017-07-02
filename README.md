@@ -2,7 +2,7 @@
 webpack使用实例
 
 # 确保环境中安装nodeJS --（不懂得百度即可，安装直接下一步下一步）
-# git clone https://github.com/wqb2017/webpack-demo.git
+# 拷贝手脚架 git clone https://github.com/wqb2017/webpack-demo.git
 # 安装依赖 npm intsall
 # 启动服务 npm run dev_win(window环境)
 
@@ -35,8 +35,8 @@ webpack使用实例
 
 # 框架使用说明
 * js框架 使用jquery-v1.11.3
-* ui框架 使用bootstrap- 不兼容低版本ie8一下v3.3.7
-* 打包工具使用webpack-1.15.0v
+* ui框架 使用bootstrap-v3.3.7 不兼容低版本ie8一下
+* 打包工具使用webpack-v1.15.0
 
 # 项目主要事项
 * 新建文件是要在webpack.config.js文件中引入对应的入口文件和静态文件
