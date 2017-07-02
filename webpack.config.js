@@ -65,7 +65,7 @@
      }
    },
    plugins: [
-     // 独立通用模块到js/base.js
+     // 独立通用模块到js/common.js
      new webpack.optimize.CommonsChunkPlugin({
        name : 'common',
        filename : 'js/common.js'
