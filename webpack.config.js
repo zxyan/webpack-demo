@@ -39,9 +39,22 @@
    },
    module: {
      loaders: [
-       { test: /\.css$/, loader: ExtractTextPlugin.extract("style-loader","css-loader") },
-       { test: /\.(gif|png|jpg|woff|svg|eot|ttf)\??.*$/, loader: 'url-loader?limit=100&name=resource/[name].[ext]' },
-       { test: /\.string$/, loader: 'html-loader'}
+       {
+         test: /\.css$/,
+         loader: ExtractTextPlugin.extract("style-loader","css-loader")
+       },
+       {
+         test: /\.(gif|png|jpg)\??.*$/,
+         loader: 'url-loader?limit=100&name=resource/[name]-[hash].[ext]'
+       },
+       {
+         test: /\.(woff|svg|eot|ttf)\??.*$/,
+         loader: 'url-loader?limit=100&name=resource/[name]].[ext]'
+       },
+       {
+         test: /\.string$/,
+         loader: 'html-loader'
+       }
      ]
    },
    resolve : {

@@ -1,0 +1,12 @@
+/*
+* @Author: wqb
+* @Date:   2017/7/2
+* @Last Modified by:   wqb
+* @Last Modified time: 2017/7/2
+*/
+.header{
+    color: #f00;
+    width: 200px;
+    height: 200px;
+    background: url("header-floor.jpg") no-repeat;
+}
