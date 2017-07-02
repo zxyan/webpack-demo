@@ -39,6 +39,10 @@ webpack使用实例
 
 # 项目主要事项
 * 新建文件是要在webpack.config.js文件中引入对应的入口文件和静态文件
+* 当使用标签引入img文件是要这么写：
+```html
+ <img class="floor-img" src="<%= require('../images/loading.gif') %>" alt="加载" />
+```
 
 # 关于文件统一说明
 * pages每个文件下统一把js和css文件新建成
