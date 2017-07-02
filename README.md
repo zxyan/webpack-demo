@@ -42,7 +42,7 @@ webpack使用实例
 
 # 关于文件统一说明
 * pages每个文件下统一把js和css文件新建成
-```js 
+```js
 index.js
 index.css
 ```
