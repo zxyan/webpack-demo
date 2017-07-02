@@ -45,11 +45,11 @@
        },
        {
          test: /\.(gif|png|jpg)\??.*$/,
-         loader: 'url-loader?limit=100&name=resource/[name]-[hash].[ext]'
+         loader: 'url-loader?limit=100&name=/resource/[name]-[hash].[ext]'
        },
        {
          test: /\.(woff|svg|eot|ttf)\??.*$/,
-         loader: 'url-loader?limit=100&name=resource/[name]].[ext]'
+         loader: 'url-loader?limit=100&name=/resource/[name]].[ext]'
        },
        {
          test: /\.string$/,
