@@ -3,7 +3,7 @@ webpack使用实例
 
 # 确保环境中安装nodeJS --（不懂得百度即可，安装直接下一步下一步）
 # 拷贝手脚架 git clone https://github.com/wqb2017/webpack-demo.git
-# 安装依赖 npm intsall
+# 安装依赖 npm install
 # 启动服务 npm run dev_win(window环境)
 # 在浏览器中输入对应地址：如
 * http://localhost:4455/dist/view/home.html
