@@ -5,6 +5,8 @@ webpack使用实例
 # 拷贝手脚架 git clone https://github.com/wqb2017/webpack-demo.git
 # 安装依赖 npm intsall
 # 启动服务 npm run dev_win(window环境)
+# 在浏览器中输入对应地址：如
+* http://localhost:4455/dist/view/home.html
 
 # 项目结构说明
 ```html
